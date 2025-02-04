@@ -219,7 +219,7 @@ export const Dropdown: React.FC<DropdownProps> = ({
   );
 
   return (
-    <div className={classNames("flex gap-x-30", className)}>
+    <div className={classNames("flex", className)}>
       {optionLabel}
       <div
         ref={dropdownRef}
