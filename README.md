@@ -1,4 +1,4 @@
-# Demo `@laksmitawidya/dropdown` for Simple Dropdown Component for ReactJS
+## `@laksmitawidya/dropdown` Component for ReactJS
 
 [![NPM Version](https://img.shields.io/npm/v/@laksmitawidya/dropdown)](https://www.npmjs.com/package/@laksmitawidya/dropdown)
 [![License](https://img.shields.io/npm/l/@laksmitawidya/dropdown)](https://github.com/laksmitawidya/dropdown/blob/main/LICENSE)
