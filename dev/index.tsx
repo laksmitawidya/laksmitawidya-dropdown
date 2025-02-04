@@ -32,14 +32,13 @@ const App = () => {
       {value?.label}
       {multiValue.map((val) => val.label).join(",")}
       <Dropdown
-        clearable
         outlined={true}
         value={value}
         onChange={(value) => {
           setValue(value);
         }}
         options={optionsList}
-        optionLabel="Test"
+        optionLabel="Test Long Label"
       />
       <div style={{ padding: "20px" }}></div>
       <Dropdown
@@ -50,7 +49,7 @@ const App = () => {
         }}
         withPortal
         options={optionsList}
-        optionLabel="Test"
+        optionLabel="Test Super long long long long long label"
         customOption={(option) => {
           return (
             <span className="bg-pink-100 p-2" aria-label={option.label}>
