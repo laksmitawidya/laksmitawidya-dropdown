@@ -21,6 +21,8 @@ pnpm install @laksmitawidya/dropdown
 
 ## Usage
 
+- Import `@import "@laksmitawidya/dropdown/dist/dropdown.css";` to the main css file
+
 ```tsx
 const App = () => {
   const [value, setValue] = useState<SelectOption | undefined>(optionsList[0]);
