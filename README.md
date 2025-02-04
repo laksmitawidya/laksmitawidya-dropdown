@@ -24,20 +24,6 @@ pnpm install @laksmitawidya/dropdown
 ```tsx
 const App = () => {
   const [value, setValue] = useState<SelectOption | undefined>(optionsList[0]);
-  const [multiValue, setMultiValue] = useState<SelectOption[]>([]);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
 
   return (
     <div style={{ padding: "20px" }}>
