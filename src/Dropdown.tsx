@@ -219,8 +219,10 @@ export const Dropdown: React.FC<DropdownProps> = ({
   );
 
   return (
-    <div className={classNames("flex", className)}>
-      {optionLabel}
+    <div className={classNames("flex items-center", className)}>
+      {optionLabel && (
+        <div className="min-w-[100px] max-w-[200px] mr-5">{optionLabel}</div>
+      )}
       <div
         ref={dropdownRef}
         onClick={() => setIsDropdownOpen((prev) => !prev)}
