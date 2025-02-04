@@ -1,0 +1,45 @@
+{
+  "name": "@laksmitawidya/dropdown",
+  "version": "1.0.3",
+  "description": "Simple Dropdown for React",
+  "scripts": {
+    "dev": "vite --config vite.config.ts --port 3000",
+    "build": "vite build --config vite.config.ts"
+  },
+  "keywords": [],
+  "author": "Laksmita Widya",
+  "main": "dist/dropdown.umd.js",
+  "module": "dist/dropdown.es.js",
+  "types": "dist/index.d.ts",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "5.6.0",
+    "@tailwindcss/vite": "4.0.2",
+    "classnames": "2.5.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwindcss": "4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.0",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "@vitejs/plugin-react": "4.3.4",
+    "storybook": "8.5.3",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.7.3",
+    "vite": "6.0.11",
+    "vite-plugin-dts": "4.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

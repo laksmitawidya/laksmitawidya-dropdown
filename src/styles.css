@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.container {
+  @apply text-sm min-w-[320px];
+}
+
+.dropdownList {
+  top: calc(100% + 0.25em);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-shadow: rgba(149, 157, 165, 0.2);
+  transition: transform 150ms ease-in-out, opacity 100ms ease-in-out;
+}
+
+.icon {
+  svg {
+    @apply fill-gray-400;
+  }
+}
